@@ -6,12 +6,12 @@
 
 En las carpetas stack y queue se encuentran dos implementaciones básicas de pilas y colas que tienen un problema. No encapsulan los datos y por lo tanto se pueden manipular sabiendo que ambos TAD están implementados sobre arreglos.
 
-1. Se pide modificar los TAD **_stack_** y **_queue_** para que no se puedan manipular los datos y que la única forma de acceder a ellos sea a través de los métodos definidos.
+1. Se pide modificar los TAD **_Stack_** y **_Queue_** para que no se puedan manipular los datos y que la única forma de acceder a ellos sea a través de los métodos definidos.
 
 2. Implementar nuevamente la cola pero usando internamente dos pilas para almacenar los datos.
 
     - **_Enqueue:_** agrega el elemento a la primera pila
-    - **_Dequeue:_** devuelve el tope de la segunda pila. Si la segunda pila está vacía desapila uno por uno todos los elementos de la primera pila y los apila en la segunda
+    - **_Dequeue:_** devuelve el tope de la segunda pila. Si la segunda pila está vacía, entonces desapila uno por uno todos los elementos de la primera pila y los apila en la segunda
 
 Analizar el orden de cada uno de los métodos.
 
