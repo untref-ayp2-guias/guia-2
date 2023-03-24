@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"queue"
+	"guia2/queue"
 )
 
 func main() {
