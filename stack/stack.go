@@ -13,7 +13,7 @@ func (s *Stack) Push(v any) {
 // Pop saca un elemento de la pila. O(1)
 func (s *Stack) Pop() (any, error) {
 	if (*s).IsEmpty() {
-		return 0, errors.New("la pila esta vacia")
+		return nil, errors.New("la pila esta vacia")
 	}
 	v := (*s)[len(*s)-1]
 	*s = (*s)[:len(*s)-1]

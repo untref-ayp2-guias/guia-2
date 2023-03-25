@@ -1,9 +1,12 @@
-package stack
+package tests
 
-import "testing"
+import (
+	"guia2/stack"
+	"testing"
+)
 
 func TestPush(t *testing.T) {
-	var s Stack
+	var s stack.Stack
 
 	s.Push(1)
 	s.Push(2)
@@ -15,7 +18,7 @@ func TestPush(t *testing.T) {
 }
 
 func TestPop(t *testing.T) {
-	var s Stack
+	var s stack.Stack
 
 	s.Push(1)
 	s.Push(2)

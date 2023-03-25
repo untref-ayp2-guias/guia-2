@@ -32,3 +32,22 @@ func (q *Queue) Front() (any, error) {
 func (q *Queue) IsEmpty() bool {
 	return len(*q) == 0
 }
+
+
+type QueueS //TODO
+
+func (q *QueueS) Enqueue(v any) {
+    //TODO
+}
+
+func (q *QueueS) Dequeue() (any, error) {
+    //TODO
+}
+
+func (q *QueueS) IsEmpty() bool {
+    //TODO
+}
+
+func (q *QueueS) Front() (any, error) {
+    //TODO
+}

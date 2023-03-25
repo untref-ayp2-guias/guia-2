@@ -51,7 +51,7 @@ func main() {
 
 	v, err = q.Dequeue()
 	for err == nil {
-		fmt.Println(v)
+		fmt.Printf("%s", v)
 		v, err = q.Dequeue()
 	}
 }

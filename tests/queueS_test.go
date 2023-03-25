@@ -1,9 +1,12 @@
-package queue
+package tests
 
-import "testing"
+import (
+	"guia2/queue"
+	"testing"
+)
 
 func TestQueue(t *testing.T) {
-	q := Queue{}
+	q := queue.QueueS{}
 
 	q.Enqueue(1)
 	q.Enqueue(2)
