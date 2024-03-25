@@ -14,8 +14,8 @@ Carpeta `queueS`
 
 Carpeta `ejercicios`
 
-1. Escribir una función que que reciba una cadena de caracteres y devuelva la
-   cadena invertida. Analizar el orden.
+1. Escribir una función que reciba una cadena de caracteres y devuelva la cadena
+   invertida. Analizar el orden.
 2. Escribir una función que verifique si una palabra es palíndromo (es decir que
    una cadena es igual a su inversa. Por ejemplo: las cadenas "1456541" y
    "145541" son palíndromos). Analizar el orden.
