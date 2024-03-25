@@ -4,7 +4,7 @@
 
 ### Tipo Abstracto de Datos
 
-Carpeta `queue`
+Carpeta `queueS`
 1. Implementar una cola (`QueueS`) pero usando internamente dos pilas (`stack`) para almacenar los datos.
 2. Analizar el orden de las operaciones de la cola implementada.
 
