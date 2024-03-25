@@ -2,4 +2,7 @@ module guia2
 
 go 1.20
 
-require github.com/google/go-cmp v0.5.9 // indirect
+require (
+	github.com/untref-ayp2/queue v0.1.0
+	github.com/untref-ayp2/stack v1.0.0
+)

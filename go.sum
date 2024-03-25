@@ -1,2 +1,4 @@
-github.com/google/go-cmp v0.5.9 h1:O2Tfq5qg4qc4AmwVlvv0oLiVAGB7enBSJ2x2DqQFi38=
-github.com/google/go-cmp v0.5.9/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
+github.com/untref-ayp2/queue v0.1.0 h1:JUamuNzXvAYZz1xCHgpvd8PzAlysVE4RJqtmDk7hMLM=
+github.com/untref-ayp2/queue v0.1.0/go.mod h1:kCL6PYpKb/s+4jXmvi70ENNuDe1tpknIyrFfn17VmMI=
+github.com/untref-ayp2/stack v1.0.0 h1:mkaLsatx/4v4wi2FMAw0p9DDlOTqbUhX1Jd74Y6RN34=
+github.com/untref-ayp2/stack v1.0.0/go.mod h1:K7peDRnjFvmPZ9rb9YP7bLrpPv60+X/tyjzSwGm7RdE=
