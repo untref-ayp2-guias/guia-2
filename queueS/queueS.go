@@ -1,36 +1,35 @@
 package queueS
 
 import(
-    "github.com/untref-ayp2/stack"
+    "github.com/untref-ayp2/data-structures/stack"
 )
 
 // Implementación de una cola genérica utilizando dos pilas
 type QueueS[T any] struct {
-   // Implementar
+	// Implementar
 }
 
-// Crea una nueva cola vacía. 
+// Crea una nueva cola vacía.
 func NewQueueS[T any]() *QueueS[T] {
-    // Implementar
+	// Implementar
 }
 
-// Agrega un elemento a la cola. 
+// Agrega un elemento a la cola.
 func (q *QueueS[T]) Enqueue(v T) {
-   // Implementar
+	// Implementar
 }
 
 // Elimina y devuelve el elemento al frente de la cola.
 func (q *QueueS[T]) Dequeue() (any, error) {
-   // Implementar
+	// Implementar
 }
 
 // Devuelve el elemento al frente de la cola.
-func (q *QueueS[T]) Front() (any, error){
-    // Implementar
+func (q *QueueS[T]) Front() (any, error) {
+	// Implementar
 }
 
 // Devuelve true si la cola está vacía.
-func (q *QueueS[T]) IsEmpty() bool{
-   // Implementar
+func (q *QueueS[T]) IsEmpty() bool {
+	// Implementar
 }
-

@@ -1,9 +1,10 @@
 package tests
 
 import (
-	"github.com/untref-ayp2/queue"
-	"testing"
 	"guia2/ejercicios"
+	"testing"
+
+	"github.com/untref-ayp2/data-structures/queue"
 )
 
 func TestInvertirCadena(t *testing.T) {
@@ -29,11 +30,10 @@ func TestInvertirCadenaImpar(t *testing.T) {
 
 func TestPalindromo(t *testing.T) {
 	if ejercicios.Palindromo("1456541") != true ||
-	ejercicios.Palindromo("145541") != true {	
+		ejercicios.Palindromo("145541") != true {
 		t.Error("Palindromo falla")
 	}
 }
-
 
 func TestPalindromoFalso(t *testing.T) {
 	if ejercicios.Palindromo("145654") != false {
@@ -42,7 +42,7 @@ func TestPalindromoFalso(t *testing.T) {
 }
 
 func TestPalindromoVacio(t *testing.T) {
-	if ejercicios.Palindromo("") != true{
+	if ejercicios.Palindromo("") != true {
 		t.Error("Palindromo falla")
 	}
 }
@@ -61,7 +61,7 @@ func TestPalindromoPar(t *testing.T) {
 
 func TestBalanceada(t *testing.T) {
 	if ejercicios.Balanceada("[()]{}{[()()]()}") != true ||
-	ejercicios.Balanceada("[(])") != false {
+		ejercicios.Balanceada("[(])") != false {
 		t.Error("Balanceada falla")
 	}
 }
@@ -104,7 +104,6 @@ func TestUnirColas(t *testing.T) {
 func TestUnirColasVacias(t *testing.T) {
 	q1 := queue.New[int]()
 	q2 := queue.New[int]()
-	
 
 	q12_dado := ejercicios.UnirColas(q1, q2)
 	if !q12_dado.IsEmpty() {
@@ -116,7 +115,7 @@ func TestUnirColaVacia(t *testing.T) {
 	q1 := queue.New[int]()
 	q1.Enqueue(1)
 	q2 := queue.New[int]()
-	
+
 	q12 := ejercicios.UnirColas(q1, q2)
 	value, _ := q12.Dequeue()
 	if value != 1 {
@@ -126,4 +125,3 @@ func TestUnirColaVacia(t *testing.T) {
 		t.Error("UnirColas falla")
 	}
 }
-

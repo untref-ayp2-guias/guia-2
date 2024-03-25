@@ -1,8 +1,8 @@
 package tests
 
 import (
-	"testing"
 	"guia2/queueS"
+	"testing"
 )
 
 func TestQueueS(t *testing.T) {

@@ -1,4 +1,2 @@
-github.com/untref-ayp2/queue v0.1.0 h1:JUamuNzXvAYZz1xCHgpvd8PzAlysVE4RJqtmDk7hMLM=
-github.com/untref-ayp2/queue v0.1.0/go.mod h1:kCL6PYpKb/s+4jXmvi70ENNuDe1tpknIyrFfn17VmMI=
-github.com/untref-ayp2/stack v1.0.0 h1:mkaLsatx/4v4wi2FMAw0p9DDlOTqbUhX1Jd74Y6RN34=
-github.com/untref-ayp2/stack v1.0.0/go.mod h1:K7peDRnjFvmPZ9rb9YP7bLrpPv60+X/tyjzSwGm7RdE=
+github.com/untref-ayp2/data-structures v0.2.0 h1:GIpWTxyiN3Mb3+NL5tHJgB0OQGLTCv2wcjWseB87LFM=
+github.com/untref-ayp2/data-structures v0.2.0/go.mod h1:wsJQ0JjkNUVRfTZtLKGo6nFk2g5RktigFWgmk+8C1Ts=
