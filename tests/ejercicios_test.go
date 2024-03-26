@@ -75,6 +75,9 @@ func TestUnirColas(t *testing.T) {
 	q2.Enqueue(5)
 	q2.Enqueue(7)
 	q12 := ejercicios.UnirColas(q1, q2)
+	if q12 == nil {
+		t.Fatal("La cola no puede ser nula")
+	}
 
 	value, _ := q12.Dequeue()
 	if value != 1 {
@@ -106,6 +109,9 @@ func TestUnirColasVacias(t *testing.T) {
 	q2 := queue.New[int]()
 
 	q12_dado := ejercicios.UnirColas(q1, q2)
+	if q12_dado == nil {
+		t.Fatal("La cola no puede ser nula")
+	}
 	if !q12_dado.IsEmpty() {
 		t.Error("UnirColas falla")
 	}
@@ -117,6 +123,9 @@ func TestUnirColaVacia(t *testing.T) {
 	q2 := queue.New[int]()
 
 	q12 := ejercicios.UnirColas(q1, q2)
+	if q12 == nil {
+		t.Fatal("La cola no puede ser nula")
+	}
 	value, _ := q12.Dequeue()
 	if value != 1 {
 		t.Error("UnirColas falla")

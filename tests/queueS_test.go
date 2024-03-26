@@ -7,6 +7,9 @@ import (
 
 func TestQueueS(t *testing.T) {
 	q := queueS.NewQueueS[int]()
+	if q == nil {
+		t.Fatal("La cola no puede ser nula")
+	}
 	if !q.IsEmpty() {
 		t.Error("La cola no está vacía")
 	}
@@ -39,6 +42,9 @@ func TestQueueS(t *testing.T) {
 
 func TestQueueS2(t *testing.T) {
 	q := queueS.NewQueueS[string]()
+	if q == nil {
+		t.Fatal("La cola no puede ser nula")
+	}
 	if !q.IsEmpty() {
 		t.Error("La cola no está vacía")
 	}
@@ -71,6 +77,9 @@ func TestQueueS2(t *testing.T) {
 
 func TestQueueS3(t *testing.T) {
 	q := queueS.NewQueueS[bool]()
+	if q == nil {
+		t.Fatal("La cola no puede ser nula")
+	}
 	if !q.IsEmpty() {
 		t.Error("La cola no está vacía")
 	}

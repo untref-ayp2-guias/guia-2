@@ -1,16 +1,15 @@
 package ejercicios
 
 import (
-	"fmt"
-
 	"github.com/untref-ayp2/data-structures/queue"
-	"github.com/untref-ayp2/data-structures/stack"
+	// "github.com/untref-ayp2/data-structures/stack"
 )
 
 // Escribir una función que que reciba una cadena de caracteres
 // y devuelva la cadena invertida. Analizar el orden.
 func InvertirCadena(cadena string) string {
 	// Implementar
+	return ""
 }
 
 // Escribir una función que verifique si una palabra es palíndromo
@@ -19,6 +18,7 @@ func InvertirCadena(cadena string) string {
 //	las cadenas "1456541" y "145541" son palíndromos). Analizar el orden.
 func Palindromo(cadena string) bool {
 	// Implementar
+	return false
 }
 
 // Escribir una función que evalúe si una cadena de paréntesis, corchetes y
@@ -27,6 +27,7 @@ func Palindromo(cadena string) bool {
 // devolver `true`, mientras que `[(])` debe devolver `false`. Analizar el orden.
 func Balanceada(cadena string) bool {
 	// Implementar
+	return false
 }
 
 // Escribir una función, tal que, dadas dos colas, construya una cola con el resultado
@@ -35,4 +36,5 @@ func Balanceada(cadena string) bool {
 // frente y 7 al final). Analizar el orden.
 func UnirColas[T any](q1, q2 *queue.Queue[T]) *queue.Queue[T] {
 	// Implementar
+	return nil
 }
